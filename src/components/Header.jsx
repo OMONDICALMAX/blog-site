@@ -1,12 +1,5 @@
-function Header() {
-    return (
-        <div className="bar">
-            <ul>
-                <li><button className="headerBTN">Home</button></li>
-                <li><button className="headerBTN">Blog</button></li>
-            </ul>
-        </div>
-    );
+function Header({ name }) {
+  return <h1>{name}</h1>;
 }
 
 export default Header;
